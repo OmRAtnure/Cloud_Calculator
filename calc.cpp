@@ -3,16 +3,16 @@ using namespace std;
 
 void Calculation(int a,int b,char op) {
   switch(op)
-    case +:
+    case '+':
       cout<<"Addition of "<<a<<" and "<<b<<" is: "<<a+b;
       break;
-    case -:
+    case '-':
       cout<<"Substraction of "<<a<<" and "<<b<<" is: "<<a-b;
       break;
-    case *:
+    case '*':
       cout<<"Multiplication of "<<a<<" and "<<b<<" is: "<<a*b;
       break;
-    case /:
+    case '/':
       cout<<"Division of "<<a<<" and "<<b<<" is: "<<a/b;
       break;
     default :
