@@ -2,7 +2,7 @@
 using namespace std;
 
 void Calculation(int a,int b,char op) {
-  switch(op)
+  switch(op) {
     case '+':
       cout<<"Addition of "<<a<<" and "<<b<<" is: "<<a+b;
       break;
@@ -17,6 +17,7 @@ void Calculation(int a,int b,char op) {
       break;
     default :
         cout<<"wrong operation"<<endl;
+  }
 }
 
 int main()  {
